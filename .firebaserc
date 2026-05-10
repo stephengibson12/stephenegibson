@@ -1,15 +1,5 @@
 {
   "projects": {
-    "default": "ron-portfolio-3bb0b"
-  },
-  "targets": {
-    "ron-portfolio-3bb0b": {
-      "hosting": {
-        "main": [
-          "stephenegibson"
-        ]
-      }
-    }
-  },
-  "etags": {}
+    "default": "stephenegibson"
+  }
 }

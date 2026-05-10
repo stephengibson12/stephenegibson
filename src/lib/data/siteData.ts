@@ -46,15 +46,15 @@ export interface SiteData {
 }
 
 export const siteData: SiteData = {
-  title: "Ronald Corona",
+  title: "Stephen's Portfolio",
   hero: {
-    title: "Full Stack Developer",
-    description: "Software Developer. Skater. Digital Nomad.",
+    title: "Stephen Gibson",
+    description: "Builder. Operator. Marketer.",
   },
   social: {
-    email: "Ronaldmcorona@gmail.com",
-    github: "https://github.com/Jomopipi",
-    linkedin: "https://linkedin.com/in/ronaldcorona",
+    email: "stephen@minutezero.com",
+    github: "https://github.com/stephengibson12",
+    linkedin: "https://linkedin.com/in/stephenegibson",
   },
   sections: [
     {
