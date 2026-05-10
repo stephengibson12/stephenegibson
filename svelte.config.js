@@ -15,21 +15,14 @@ const config = {
     prerender: {
       entries: [
         '/',
-        '/music',
-        '/music/nunisynth',
-        '/academic',
-        '/academic/lambda-calc-eval',
-        '/academic/coding-pro',
-        '/games',
-        '/games/blood-blaze',
-        '/games/blur-blaze',
-        '/electronics',
-        '/electronics/asynchonous-reluctance-motor',
-        '/electronics/nodemcu-car',
-        '/analytics',
-        '/analytics/crypto-pump-notifier',
-        '/analytics/corona-analytics'
-      ]
+        '/dev',
+        '/grow',
+        '/startups',
+        '/events',
+        '/music'
+      ],
+      // Project sub-routes exist as templates but have no items yet — don't fail the build
+      handleUnseenRoutes: 'ignore'
     }
   }
 };
