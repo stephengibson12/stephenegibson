@@ -52,7 +52,7 @@ export const siteData: SiteData = {
     description: "Builder. Operator. Marketer.",
   },
   social: {
-    email: "stephen@minutezero.com",
+    email: "hello@stephenegibson.com",
     github: "https://github.com/stephengibson12",
     linkedin: "https://linkedin.com/in/stephenegibson",
   },

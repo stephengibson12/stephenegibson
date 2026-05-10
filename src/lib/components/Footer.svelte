@@ -4,7 +4,7 @@
 
 <footer>
   <div class="container">
-    &copy; {currentYear} Ronald Corona. All rights reserved
+    &copy; {currentYear} Stephen Gibson. All rights reserved
     <span class="accent">//</span>
   </div>
 </footer>

@@ -6,11 +6,11 @@
 </script>
 
 <svelte:head>
-  <title>{siteData.title} | Software Developer, Skater, Digital Nomad</title>
-  <meta name="description" content="Portfolio of Ronald Corona - Full stack developer crafting music apps, games, electronics projects, and data analytics tools." />
-  <meta property="og:title" content="{siteData.title} | Software Developer" />
-  <meta property="og:description" content="Full stack developer crafting music apps, games, electronics projects, and data analytics tools." />
-  <meta property="og:image" content="https://ron-portfolio-3bb0b.web.app/images/cover.webp?v=2" />
+  <title>{siteData.title} | Stephen Gibson</title>
+  <meta name="description" content="Stephen Gibson's portfolio — software development and marketing work, plus startups, events, and music." />
+  <meta property="og:title" content="{siteData.title}" />
+  <meta property="og:description" content="Stephen Gibson's portfolio — software development and marketing work, plus startups, events, and music." />
+  <meta property="og:image" content="https://stephenegibson.com/images/cover.webp?v=2" />
 </svelte:head>
 
 <Bio />

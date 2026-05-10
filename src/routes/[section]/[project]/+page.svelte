@@ -6,11 +6,11 @@
 </script>
 
 <svelte:head>
-  <title>{data.project.title} | {data.section.title} | Ronald Corona</title>
+  <title>{data.project.title} | {data.section.title} | Stephen Gibson</title>
   <meta name="description" content={data.project.description} />
-  <meta property="og:title" content="{data.project.title} | Ronald Corona" />
+  <meta property="og:title" content="{data.project.title} | Stephen Gibson" />
   <meta property="og:description" content={data.project.description} />
-  <meta property="og:image" content="https://ron-portfolio-3bb0b.web.app{data.project.image || '/images/cover.webp'}" />
+  <meta property="og:image" content="https://stephenegibson.com{data.project.image || '/images/cover.webp'}" />
 </svelte:head>
 
 <div style="--section-header:{data.section.theme.header}; --section-title:{data.section.theme.title}">

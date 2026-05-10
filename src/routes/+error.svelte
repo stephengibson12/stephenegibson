@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Error {$page.status} | Ronald Corona</title>
+  <title>Error {$page.status} | Stephen Gibson</title>
 </svelte:head>
 
 <div class="error-page">
