@@ -32,7 +32,10 @@ const config = {
         '/events/mission-creatives',
         '/events/bayareasearch',
         '/events/open-future-forum',
-        '/music'
+        '/music',
+        '/music/brick-and-mortar',
+        '/music/cherry-blossom-festival',
+        '/music/original-works'
       ],
       // Other sections have no projects yet — don't fail the build on their empty sub-routes
       handleUnseenRoutes: 'ignore'
