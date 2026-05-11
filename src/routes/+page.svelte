@@ -30,7 +30,7 @@
 
 <style>
   .projects-header {
-    margin-top: 4rem;
+    margin-top: 7rem;
     margin-bottom: 1rem;
     border-left: 4px solid var(--accent-color);
     padding-left: 1.5rem;
@@ -47,7 +47,7 @@
 
   @media (max-width: 600px) {
     .projects-header {
-      margin-top: 3rem;
+      margin-top: 5rem;
       padding-left: 1rem;
     }
 
