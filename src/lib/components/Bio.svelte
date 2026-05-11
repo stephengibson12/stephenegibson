@@ -16,7 +16,7 @@
 
     <div class="bio-details">
       <p class="bio-text">
-        Dev, marketing, and startups — with a creative streak.
+        Dev, marketing, and startups.
       </p>
 
       {#if siteData.social.email}
