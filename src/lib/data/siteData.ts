@@ -125,6 +125,15 @@ export const siteData: SiteData = {
       },
       projects: [
         {
+          id: "content-seo",
+          title: "Content & SEO",
+          path: "/grow/content-seo",
+          description: "Content strategy across blog, landing pages, and email. Built a blog to 350+ views/day through SEO and backlink work. On-page and technical SEO; content cluster planning; editorial calendar ops. 1.5x peak traffic via GA-informed iteration.",
+          image: "/images/grow-04.webp",
+          action: "RANK",
+          links: {},
+        },
+        {
           id: "pr-media-relations",
           title: "PR & Media Relations",
           path: "/grow/pr-media-relations",
@@ -151,15 +160,6 @@ export const siteData: SiteData = {
           action: "CONVERT",
           links: {},
         },
-        {
-          id: "content-seo",
-          title: "Content & SEO",
-          path: "/grow/content-seo",
-          description: "Content strategy across blog, landing pages, and email. Built a blog to 350+ views/day through SEO and backlink work. On-page and technical SEO; content cluster planning; editorial calendar ops. 1.5x peak traffic via GA-informed iteration.",
-          image: "/images/grow-04.webp",
-          action: "RANK",
-          links: {},
-        },
       ],
     },
     {
@@ -171,7 +171,17 @@ export const siteData: SiteData = {
         header: "#ff3d00",
         title: "#ff9100",
       },
-      projects: [],
+      projects: [
+        {
+          id: "gold-lapel",
+          title: "Gold Lapel",
+          path: "/startups/gold-lapel",
+          description: "Self-optimizing PostgreSQL proxy that replaces Redis, Elasticsearch, and MongoDB with a single database. 45,000+ lines of async Rust + SDKs in 7 languages (Python, JS, Ruby, Go, Java, PHP, .NET). MongoDB-style aggregation pipeline (85x faster than Mongo via materialized-view caching), JSONB document store, P2P QUIC mesh for cross-instance cache invalidation. Built solo using AI code-generation tools (Claude Code with multi-agent workflows). Shipping to 12+ package registries from a single git tag. Founder & principal engineer.",
+          image: "/images/startups-01.webp",
+          action: "VISIT",
+          links: { demo: "https://goldlapel.com" },
+        },
+      ],
     },
     {
       id: "events",
