@@ -173,6 +173,15 @@ export const siteData: SiteData = {
       },
       projects: [
         {
+          id: "minutezero",
+          title: "MinuteZero",
+          path: "/startups/minutezero",
+          description: "AI Marketing Engineer service. Custom prospect audits with six-axis topic-strength grading, AI-search-readiness checklist, and series-scale content production. Built the audit pipeline, content engine, and CRM as one platform. Founder & principal engineer; running since 2016.",
+          image: "/images/dev-01.webp",
+          action: "VISIT",
+          links: { demo: "https://minutezero.com" },
+        },
+        {
           id: "gold-lapel",
           title: "Gold Lapel",
           path: "/startups/gold-lapel",
@@ -236,7 +245,7 @@ export const siteData: SiteData = {
           id: "brick-and-mortar",
           title: "Brick & Mortar — opening for Marie Digby",
           path: "/music/brick-and-mortar",
-          description: "Opened for Marie Digby at Brick & Mortar Music Hall, San Francisco. Solo set on guitar.",
+          description: "Opened for Marie Digby at Brick & Mortar Music Hall, San Francisco. Set on piano and guitar, with cello and vocal accompaniment.",
           image: "/images/music-01.jpg",
           action: "PLAY",
           links: {},
@@ -245,7 +254,7 @@ export const siteData: SiteData = {
           id: "cherry-blossom-festival",
           title: "Cherry Blossom Festival, SF",
           path: "/music/cherry-blossom-festival",
-          description: "Performed at the San Francisco Cherry Blossom Festival in Japantown — one of the largest cultural celebrations on the West Coast.",
+          description: "Performed at the San Francisco Cherry Blossom Festival in Japantown — one of the largest cultural celebrations on the West Coast. Piano and guitar with cello and vocal accompaniment.",
           image: "/images/music-03.png",
           action: "PERFORM",
           links: {},

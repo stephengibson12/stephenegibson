@@ -27,6 +27,7 @@ const config = {
         '/grow/email-performance',
         '/grow/content-seo',
         '/startups',
+        '/startups/minutezero',
         '/startups/gold-lapel',
         '/events',
         '/events/mission-creatives',
