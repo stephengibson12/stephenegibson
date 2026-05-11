@@ -22,6 +22,10 @@ const config = {
         '/dev/qa-test-automation',
         '/dev/devops-sysadmin',
         '/grow',
+        '/grow/pr-media-relations',
+        '/grow/influencer-endorsement',
+        '/grow/email-performance',
+        '/grow/content-seo',
         '/startups',
         '/events',
         '/music'
