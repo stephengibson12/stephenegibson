@@ -29,6 +29,9 @@ const config = {
         '/startups',
         '/startups/gold-lapel',
         '/events',
+        '/events/mission-creatives',
+        '/events/bayareasearch',
+        '/events/open-future-forum',
         '/music'
       ],
       // Other sections have no projects yet — don't fail the build on their empty sub-routes
