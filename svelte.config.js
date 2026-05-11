@@ -36,7 +36,8 @@ const config = {
         '/music',
         '/music/brick-and-mortar',
         '/music/cherry-blossom-festival',
-        '/music/original-works'
+        '/music/original-works',
+        '/music/anything-goes-chorus'
       ],
       // Other sections have no projects yet — don't fail the build on their empty sub-routes
       handleUnseenRoutes: 'ignore'
