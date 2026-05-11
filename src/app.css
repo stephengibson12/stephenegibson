@@ -460,6 +460,41 @@ body::before {
   display: flex;
 }
 
+.mobile-nav-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-nav-close span {
+  position: absolute;
+  width: 28px;
+  height: 3px;
+  background-color: var(--accent-color);
+  transition: background-color 0.2s ease;
+}
+
+.mobile-nav-close span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.mobile-nav-close span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+.mobile-nav-close:hover span {
+  background-color: var(--hover-color, #fff);
+}
+
 .mobile-nav .nav-item {
   font-size: 1.5rem;
   padding: 1rem 2rem;

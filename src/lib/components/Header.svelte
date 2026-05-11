@@ -10,7 +10,18 @@
   function closeMobileNav() {
     mobileNavActive = false;
   }
+
+  function onKey(e: KeyboardEvent) {
+    if (e.key === 'Escape' && mobileNavActive) closeMobileNav();
+  }
+
+  $effect(() => {
+    if (typeof document === 'undefined') return;
+    document.body.style.overflow = mobileNavActive ? 'hidden' : '';
+  });
 </script>
+
+<svelte:window onkeydown={onKey} />
 
 <header class="main-header">
   <div class="container header-container">
@@ -52,6 +63,15 @@
 </header>
 
 <div class="mobile-nav" class:active={mobileNavActive}>
+  <button
+    class="mobile-nav-close"
+    onclick={closeMobileNav}
+    aria-label="Close navigation"
+  >
+    <span></span>
+    <span></span>
+  </button>
+
   <a
     href="/"
     class="nav-item"
