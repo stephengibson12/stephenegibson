@@ -10,7 +10,11 @@
   <meta name="description" content="Stephen Gibson's portfolio — software development and marketing work, plus startups, events, and music." />
   <meta property="og:title" content="{siteData.title}" />
   <meta property="og:description" content="Stephen Gibson's portfolio — software development and marketing work, plus startups, events, and music." />
-  <meta property="og:image" content="https://stephenegibson.com/images/cover.webp?v=2" />
+  <meta property="og:image" content="https://stephenegibson.com/images/og/home.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://stephenegibson.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <Bio />

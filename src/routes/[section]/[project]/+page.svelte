@@ -10,7 +10,11 @@
   <meta name="description" content={data.project.description} />
   <meta property="og:title" content="{data.project.title} | Stephen Gibson" />
   <meta property="og:description" content={data.project.description} />
-  <meta property="og:image" content="https://stephenegibson.com{data.project.image || '/images/cover.webp'}" />
+  <meta property="og:image" content="https://stephenegibson.com/images/og/{data.section.id}-{data.project.id}.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://stephenegibson.com/{data.section.id}/{data.project.id}" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <div style="--section-header:{data.section.theme.header}; --section-title:{data.section.theme.title}">

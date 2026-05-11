@@ -16,7 +16,7 @@
 
     <div class="bio-details">
       <p class="bio-text">
-        Full stack developer building web apps, games, and hardware projects.
+        Dev, marketing, and startups — with a creative streak.
       </p>
 
       {#if siteData.social.email}
