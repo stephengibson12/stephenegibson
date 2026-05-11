@@ -16,12 +16,16 @@ const config = {
       entries: [
         '/',
         '/dev',
+        '/dev/ai-native',
+        '/dev/languages',
+        '/dev/databases',
+        '/dev/engineering-practice',
         '/grow',
         '/startups',
         '/events',
         '/music'
       ],
-      // Project sub-routes exist as templates but have no items yet — don't fail the build
+      // Other sections have no projects yet — don't fail the build on their empty sub-routes
       handleUnseenRoutes: 'ignore'
     }
   }
