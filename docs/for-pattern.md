@@ -73,7 +73,7 @@ container chrome) and render on its own clean slate.
   over adjective-soup. Lead with *evidence you've looked at the
   company*. Don't fabricate claims.
 - **CTA:** Calendly + email. The example uses
-  `https://calendly.com/stephen-gibson/intro` as a placeholder — update
+  `https://calendly.com/minutezero` as a placeholder — update
   to the real URL when one's set up.
 
 ## What this pattern is NOT

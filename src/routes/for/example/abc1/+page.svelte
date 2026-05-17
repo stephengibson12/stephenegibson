@@ -76,7 +76,7 @@
       <div class="cta-links">
         <div class="cta-row">
           <span class="label">Book →</span>
-          <a href="https://calendly.com/stephen-gibson/intro" target="_blank" rel="noopener noreferrer">calendly.com/stephen-gibson/intro</a>
+          <a href="https://calendly.com/minutezero" target="_blank" rel="noopener noreferrer">calendly.com/stephen-gibson/intro</a>
         </div>
         <div class="cta-row">
           <span class="label">Email →</span>
