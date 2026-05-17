@@ -61,7 +61,13 @@ const config = {
         '/og/music/brick-and-mortar',
         '/og/music/cherry-blossom-festival',
         '/og/music/original-works',
-        '/og/music/anything-goes-chorus'
+        '/og/music/anything-goes-chorus',
+        // Prospect briefs at /for/<slug>/<token>/ — private-by-link only,
+        // noindexed (see src/lib/components/lp/ProspectLayout.svelte) and
+        // Disallowed in robots.txt. Each entry must be listed explicitly
+        // because nothing on the public site links to them, so the
+        // prerender crawler can't discover them.
+        '/for/example/abc1'
       ],
       // Other sections have no projects yet — don't fail the build on their empty sub-routes
       handleUnseenRoutes: 'ignore'

@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+# Per-prospect private briefs — share by link only.
+Disallow: /for/
