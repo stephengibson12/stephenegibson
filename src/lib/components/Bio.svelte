@@ -16,7 +16,7 @@
 
     <div class="bio-details">
       <p class="bio-text">
-        I build software and the marketing that sells it. Looking for collaboration opportunities, design partners, and good coffee.
+        I build software and the marketing that sells it. Looking for collaboration opportunities and good coffee.
       </p>
 
       {#if siteData.social.email}
