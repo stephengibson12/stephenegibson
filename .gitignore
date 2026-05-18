@@ -25,6 +25,12 @@ yarn-error.log*
 # Never commit your API keys or database credentials
 .env
 .flaskenv
+client_secret*.json
+*_oauth_client*.json
+
+# --- Lead lists / prospect data (real emails — don't commit) ---
+docs/notes/*.xlsx
+docs/notes/*.csv
 
 # --- Build Outputs ---
 dist/

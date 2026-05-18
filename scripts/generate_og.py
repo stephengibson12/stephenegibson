@@ -2,7 +2,9 @@
 
 Usage:
   1. npm run dev (in another terminal — vite on :5173 by default)
-  2. /home/sgibson/dev/minutezero/.venv/bin/python scripts/generate_og.py
+  2. .venv/bin/python scripts/generate_og.py
+     (See README / requirements.txt for venv setup; uses SEG's own .venv,
+     not MZ's, so SEG remains independent.)
 
 Writes 1200x630 PNGs to static/images/og/.
 """
