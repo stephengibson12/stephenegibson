@@ -16,7 +16,7 @@
 
     <div class="bio-details">
       <p class="bio-text">
-        Dev, marketing, and startups.
+        I build software and the marketing that sells it. Looking for collaboration opportunities, design partners, and good coffee.
       </p>
 
       {#if siteData.social.email}
