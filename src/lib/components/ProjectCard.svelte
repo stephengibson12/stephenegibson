@@ -1,12 +1,17 @@
 <script lang="ts">
   import type { Project, SectionTheme } from '$lib/data/siteData';
 
-  let { project, theme, showAction = true }: { project: Project; theme: SectionTheme; showAction?: boolean } = $props();
+  let { project, theme, showAction = true, interactive = true }: { project: Project; theme: SectionTheme; showAction?: boolean; interactive?: boolean } = $props();
 
   const iconStyle = "width:24px; height:24px; stroke:var(--section-title); fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; cursor:pointer; transition: transform 0.2s;";
 </script>
 
-<a href={project.path} class="card-link" style="--section-title:{theme.title}">
+<svelte:element
+  this={interactive ? 'a' : 'div'}
+  href={interactive ? project.path : null}
+  class={interactive ? 'card-link' : 'card-link card-link-static'}
+  style="--section-title:{theme.title}"
+>
   <div class="card">
     {#if project.image}
       <img
@@ -61,7 +66,7 @@
       {/if}
     </div>
   </div>
-</a>
+</svelte:element>
 
 <style>
   .card-link {
@@ -77,6 +82,21 @@
 
   .card {
     cursor: pointer;
+  }
+
+  /* Detail-page (leaf) cards: not clickable, no hover effects.
+     Overrides global .card:hover styles in app.css. */
+  :global(.card-link-static .card) {
+    cursor: default;
+  }
+  :global(.card-link-static .card:hover) {
+    transform: none;
+    border-color: var(--dim-color);
+    box-shadow: none;
+  }
+  :global(.card-link-static .card:hover h2) {
+    filter: none;
+    text-shadow: 2px 2px 0px #000;
   }
 
   .card-header {
