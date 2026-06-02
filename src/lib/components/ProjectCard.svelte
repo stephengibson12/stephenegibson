@@ -107,20 +107,24 @@
     text-shadow: 2px 2px 0px #000;
   }
 
-  /* Glyph overlay — sits outside the card-link anchor so the inner
-     glyphs are real <a> elements (browser status-bar URL + native
-     target=_blank, no nested-anchor invalid HTML). */
+  /* Glyph overlay — sits outside the card-link anchor (real <a>
+     elements for status-bar URL + native target=_blank, no nested-
+     anchor invalid HTML), but visually positioned where they used
+     to live: top-right of the content area, same row as the title,
+     just below the image. Top = image height + content padding-top. */
   .card-icons-overlay {
     position: absolute;
-    top: 0.75rem;
-    right: 0.75rem;
+    top: calc(200px + 1.5rem);
+    right: 1.75rem;
     z-index: 2;
     display: flex;
     gap: 0.5rem;
-    /* Slight backdrop so glyphs read against any image. */
-    padding: 0.4rem 0.5rem;
-    background: rgba(0, 0, 0, 0.55);
-    border-radius: 4px;
-    backdrop-filter: blur(2px);
+  }
+
+  @media (max-width: 600px) {
+    .card-icons-overlay {
+      top: calc(180px + 1rem);
+      right: 1.25rem;
+    }
   }
 </style>
