@@ -21,7 +21,7 @@
   <Breadcrumb section={data.section} project={data.project} />
 
   <div class="project-card-full">
-    <ProjectCard project={data.project} theme={data.section.theme} />
+    <ProjectCard project={data.project} theme={data.section.theme} showAction={false} />
   </div>
 </div>
 

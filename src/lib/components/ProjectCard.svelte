@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Project, SectionTheme } from '$lib/data/siteData';
 
-  let { project, theme }: { project: Project; theme: SectionTheme } = $props();
+  let { project, theme, showAction = true }: { project: Project; theme: SectionTheme; showAction?: boolean } = $props();
 
   const iconStyle = "width:24px; height:24px; stroke:var(--section-title); fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; cursor:pointer; transition: transform 0.2s;";
 </script>
@@ -54,9 +54,11 @@
         </div>
       </div>
       <p>{project.description}</p>
-      <div class="card-action">
-        &gt; {project.action || 'VIEW'}
-      </div>
+      {#if showAction}
+        <div class="card-action">
+          &gt; {project.action || 'VIEW'}
+        </div>
+      {/if}
     </div>
   </div>
 </a>
