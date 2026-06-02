@@ -6,6 +6,10 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [
+      { "source": "/startups", "destination": "/portfolio", "type": 301 },
+      { "source": "/startups/:slug", "destination": "/portfolio/:slug", "type": 301 }
     ]
   }
 }

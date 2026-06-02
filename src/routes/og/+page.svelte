@@ -6,5 +6,5 @@
 <OgCard
   eyebrow="Portfolio"
   title={siteData.hero.title}
-  description={siteData.hero.description + ' — software development, marketing, startups, events, and music.'}
+  description={siteData.hero.description + ' — software development, marketing, companies, events, and music.'}
 />
