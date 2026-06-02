@@ -19,9 +19,7 @@
 
 <Bio />
 
-<section class="projects-header">
-  <h2>Projects</h2>
-</section>
+<div class="sections-spacer"></div>
 
 {#each siteData.sections as section (section.id)}
   <SectionHeader {section} />
@@ -29,37 +27,15 @@
 {/each}
 
 <style>
-  .projects-header {
+  /* Preserves the visual gap previously held by the dropped "Projects"
+     umbrella header — keeps Bio breathing room above the first section. */
+  .sections-spacer {
     margin-top: 7rem;
-    margin-bottom: 1rem;
-    border-left: 4px solid var(--accent-color);
-    padding-left: 1.5rem;
-  }
-
-  .projects-header h2 {
-    font-family: var(--font-display);
-    font-size: 2.5rem;
-    color: var(--accent-color);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 0;
   }
 
   @media (max-width: 600px) {
-    .projects-header {
+    .sections-spacer {
       margin-top: 5rem;
-      padding-left: 1rem;
-    }
-
-    .projects-header h2 {
-      font-size: 2rem;
-      letter-spacing: 1px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .projects-header h2 {
-      font-size: 1.6rem;
     }
   }
 </style>

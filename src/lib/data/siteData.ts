@@ -163,9 +163,9 @@ export const siteData: SiteData = {
       ],
     },
     {
-      id: "portfolio",
-      title: "Portfolio",
-      path: "/portfolio",
+      id: "projects",
+      title: "Projects",
+      path: "/projects",
       description: "Companies — built, operated, and partnered with.",
       theme: {
         header: "#ff3d00",
@@ -175,7 +175,7 @@ export const siteData: SiteData = {
         {
           id: "gold-lapel",
           title: "Gold Lapel",
-          path: "/portfolio/gold-lapel",
+          path: "/projects/gold-lapel",
           description: "Self-optimizing PostgreSQL proxy that replaces Redis, Elasticsearch, and MongoDB with a single database. 45,000+ lines of async Rust + SDKs in 7 languages (Python, JS, Ruby, Go, Java, PHP, .NET). MongoDB-style aggregation pipeline (85x faster than Mongo via materialized-view caching), JSONB document store, P2P QUIC mesh for cross-instance cache invalidation. Built solo using AI code-generation tools (Claude Code with multi-agent workflows). Shipping to 12+ package registries from a single git tag. Founder & principal engineer.",
           image: "/images/dev-05.webp",
           action: "VISIT",
@@ -184,7 +184,7 @@ export const siteData: SiteData = {
         {
           id: "minutezero",
           title: "MinuteZero",
-          path: "/portfolio/minutezero",
+          path: "/projects/minutezero",
           description: "AI Marketing Engineer service. Custom prospect audits with six-axis topic-strength grading, AI-search-readiness checklist, and series-scale content production. Built the audit pipeline, content engine, and CRM as one platform. Founder & principal engineer; running since 2016.",
           image: "/images/dev-01.webp",
           action: "VISIT",
@@ -193,7 +193,7 @@ export const siteData: SiteData = {
         {
           id: "modernlift",
           title: "ModernLift",
-          path: "/portfolio/modernlift",
+          path: "/projects/modernlift",
           description: "AI-native modernization for legacy enterprise systems — production-ready slices every 4–8 weeks, delivered behind feature flags for boundary-by-boundary rollback. Shadow-traffic parity validation against the legacy system at every step. AI architect embedded in each squad to preserve the institutional memory the original authors would have lost. Partner engagement — built ModernLift's brand, landing pages, and lead-generation engine on top of MinuteZero. Marketing & lead generation partner.",
           image: "/images/dev-03.webp",
           action: "VISIT",
